@@ -23,5 +23,5 @@ def predict_age(name_to_predict):
             else:
                 print(f"Error: {response.status_code}, {response.name}")
  
-name_to_predict = ['Busayo', 'Jesulolufemi', 'Lolu', 'Ahmed', 'Fadipe', 'Rasheed', 'Janetoms', 'Oketch', 'Oluwatayo', 'Ameh', 'Omobolanle', 'Fatima', 'Janet', 'Blessing', 'Precious']
+name_to_predict = ['Busayo', 'Jesulolufemi', 'Lolu', 'Ahmed', 'Fadipe', 'Rasheed', 'Kate', 'Janetoms', 'Oketch', 'Oluwatayo', 'Ameh', 'Omobolanle', 'Fatima', 'Janet', 'Blessing', 'Precious']
 predict_age(name_to_predict)
