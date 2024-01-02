@@ -3,7 +3,7 @@ from pip._vendor import requests
 from pprint import pprint as pp
 
 def predict_age(name_to_predict):
-    with open('age_predict.txt','w') as text_file:
+    with open('group_members_age_prediction.txt','w') as text_file:
         for name in name_to_predict:
             agifyurl = f'https://api.agify.io/?name={name}'
             response = requests.get(url=agifyurl)
@@ -18,8 +18,6 @@ def predict_age(name_to_predict):
                     age = data['age']
                 )      
                 text_file.write(message)
-        # age = data['age']
-        # print(f"The predicted age is: {age}")
             else:
                 print(f"Error: {response.status_code}, {response.name}")
  
