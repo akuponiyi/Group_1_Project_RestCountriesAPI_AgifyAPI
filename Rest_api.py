@@ -41,6 +41,6 @@ def get_country_data_by_name(country_name):
         return {}
 
 # Example usage:
-country_name = 'Nigeria'
+country_name = input('Enter country of choice: ')
 country_data = get_country_data_by_name(country_name)
 print(country_data)
