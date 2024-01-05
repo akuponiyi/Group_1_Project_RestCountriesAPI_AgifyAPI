@@ -1,0 +1,16 @@
+At 316 count, the API predicted Busayo's age as: 54
+At 0 count, the API predicted Jesulolufemi's age as: None
+At 136 count, the API predicted Lolu's age as: 59
+At 135831 count, the API predicted Ahmed's age as: 52
+At 38 count, the API predicted Fadipe's age as: 48
+At 1511 count, the API predicted Rasheed's age as: 56
+At 40033 count, the API predicted Kate's age as: 54
+At 0 count, the API predicted Janetoms's age as: None
+At 7 count, the API predicted Oketch's age as: 42
+At 61 count, the API predicted Oluwatayo's age as: 44
+At 142 count, the API predicted Ameh's age as: 48
+At 151 count, the API predicted Omobolanle's age as: 40
+At 43433 count, the API predicted Fatima's age as: 52
+At 22682 count, the API predicted Janet's age as: 74
+At 6073 count, the API predicted Blessing's age as: 45
+At 6339 count, the API predicted Precious's age as: 44
