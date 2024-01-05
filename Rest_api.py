@@ -1,17 +1,10 @@
-# from pip._vendor import requests 
-# from pprint import pprint as pp
-# import json
+from pip._vendor import requests 
+from pprint import pprint as pp
+import json
 
-# restcountries_url = 'https://restcountries.com/v3.1/name/Kenya?fullText=true' 
-
-# response = requests.get(restcountries_url)
-# print(response.status_code)
-# data = response.json()
-
-
-from pip._vendor import requests
 
 def get_country_data_by_name(country_name):
+ with open('country_list.txt','w') as text_file:
     # Make an HTTP request to the API
     response = requests.get(f'https://restcountries.com/v3.1/name/{country_name}')
 
@@ -36,11 +29,21 @@ def get_country_data_by_name(country_name):
             'currencies': country.get('currencies', {}).get('KES', {}).get('name', 'N/A')
         }
         return country_data
+        
+        
     else:
         print(f"Failed to fetch country data. Status code: {response.status_code}")
         return {}
+ text_file.write((country_list))
 
 # Example usage:
 country_name = input('Enter country of choice: ')
 country_data = get_country_data_by_name(country_name)
 print(country_data)
+
+
+
+    
+
+
+
