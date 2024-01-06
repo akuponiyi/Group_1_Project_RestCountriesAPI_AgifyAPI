@@ -1,0 +1,5 @@
+Republic of Kenya is a good location for vacation with a population of 53771300 and a timezone of UTC+03:00.
+The capital of Republic of Kenya is Nairobi. It is located under the Africa continent. 
+The major language spoken is {'eng': 'English', 'swa': 'Swahili'}. The region in Republic of Kenya is Africa while the subregion is Eastern Africa.
+As a result of its state of independence being True, it is officially-assigned.
+The currency used in Republic of Kenya is {'KES': {'name': 'Kenyan shilling', 'symbol': 'Sh'}}.
